@@ -289,7 +289,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &307803761
 GameObject:
@@ -687,7 +687,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &748153090
 PrefabInstance:
@@ -759,7 +759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2481944711338321518, guid: 94b2cec448b127a4db9c2526665752ae, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2481944711338321518, guid: 94b2cec448b127a4db9c2526665752ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1551,12 +1551,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vidas: 2
   tilojosRestantes: 0
-  platerprefab: {fileID: 0}
-  ballprefab: {fileID: 0}
+  playerprefab: {fileID: 7527143823932799042, guid: b30e353b1db98fe469cc519e6849cf8b, type: 3}
+  ballprefab: {fileID: 6110541468373975062, guid: 987e3078c70e7b84e8d7d6644901936d, type: 3}
   playerSpawnPos: {fileID: 307803762}
   ballSpwanPoint: {fileID: 561564236}
   playerAtual: {fileID: 0}
-  ballAtaual: {fileID: 0}
+  ballAtual: {fileID: 0}
   contador: {fileID: 1246972015}
   msgFinal: {fileID: 1715528606}
   segurando: 0
@@ -1690,7 +1690,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Over
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1962,7 +1962,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2481944711338321518, guid: 94b2cec448b127a4db9c2526665752ae, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2481944711338321518, guid: 94b2cec448b127a4db9c2526665752ae, type: 3}
       propertyPath: m_LocalPosition.x
